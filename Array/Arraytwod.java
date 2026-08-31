@@ -1,0 +1,21 @@
+public class Arraytwod {
+    public static void main(String[] args) {
+       
+        //2D Array example
+        int [] [] matrix = {{10,20,30}, {40,50,60}};
+        System.out.println(matrix.length);
+
+        for (int i = 0; i < matrix.length; i++) {
+            //System.out.println(matrix[i].length);
+
+            for (int j = 0; j < matrix[i].length; j++) {
+                System.out.println(matrix[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+
+
+
+    }
+}
