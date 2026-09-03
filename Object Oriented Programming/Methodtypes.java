@@ -17,8 +17,9 @@ public class Methodtypes {
 
     //Method with parameter type
     int add(int num1, int num2) {
-        int result = num1 + num2;
+        int result = num1 + num2;        
         return result;
+        
     }
 
     //Static Method

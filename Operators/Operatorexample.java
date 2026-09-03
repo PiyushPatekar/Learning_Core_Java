@@ -23,7 +23,7 @@ public class Operatorexample{
         //Logical Operators
 
         boolean a = true;
-        boolean b = true;
+        boolean b = false;
 
         System.out.println(a & b);
         System.out.println(a | b);
