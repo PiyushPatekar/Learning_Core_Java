@@ -36,7 +36,7 @@ class PremiumSavingsAccount extends SavingsAccount{
 }
 
 
-public class Multipleinheritance{
+public class Multilevelinheritance{
     public static void main(String[] args) {
         
         // SavingsAccount savingsAccount = new SavingsAccount();
