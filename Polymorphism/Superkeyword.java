@@ -20,6 +20,7 @@
 
 // class Child extends Parent{
 //     Child() {
+//          super(); //calls parent constructor
 //         System.out.println("Child constructor called");
 //     }
 // }
