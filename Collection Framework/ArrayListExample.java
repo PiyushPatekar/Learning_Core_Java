@@ -1,12 +1,12 @@
 
-import java.util.Vector;
+import java.util.ArrayList;
 
 public class ArrayListExample {
 
     public static void main (String[] args){
 
         // Using String Datatype(Wrapper Class)
-        Vector<String> names = new Vector<>();
+        ArrayList<String> names = new ArrayList<>();
         names.add("Pranav");
         names.add("Gaurav");
         names.add("Piyush");
@@ -17,7 +17,7 @@ public class ArrayListExample {
         System.out.println(names);
 
         // Using Integer Datatype(Wrapper Class)
-        Vector<Integer> age = new Vector<>();
+        ArrayList<Integer> age = new ArrayList<>();
         age.add(21);
         age.add(18);
         age.add(20);
@@ -30,7 +30,7 @@ public class ArrayListExample {
         }
         
 
-        Vector<String> lang = new Vector<>();
+        ArrayList<String> lang = new ArrayList<>();
         lang.add("HTML");
         lang.add("CSS");
         lang.add("C#");
@@ -58,7 +58,6 @@ public class ArrayListExample {
 
 
         Object[] arr = lang.toArray();
-        System.out.println(Arrays.toString(arr));
 
     }
 }

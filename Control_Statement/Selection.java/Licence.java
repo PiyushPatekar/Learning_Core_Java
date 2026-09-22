@@ -1,7 +1,7 @@
 public class Licence {
     public static void main(String[] args) {
-        int age = 17;
-        boolean hasLicence = true;
+        int age = 18;
+        boolean hasLicence = false;
 
         if(age >= 18) {
             if(hasLicence) {

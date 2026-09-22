@@ -1,4 +1,4 @@
-public class Arraytwod {
+public class ArrayExample2D {
     public static void main(String[] args) {
        
         //2D Array example

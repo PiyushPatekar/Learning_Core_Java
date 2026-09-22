@@ -1,7 +1,7 @@
 
 import java.util.Vector;
 
-public class VectorExample {
+public class ArrayListExample {
 
     public static void main (String[] args){
 
@@ -58,6 +58,7 @@ public class VectorExample {
 
 
         Object[] arr = lang.toArray();
+        System.out.println(Arrays.toString(arr));
 
     }
 }
