@@ -21,8 +21,8 @@ public class JoinMethodExample {
         t1.start();
         t1.join();
         t2.start();
-
         t2.join();
+
         for (int i = 6; i <= 10; i++) {
             System.out.println("Main Thread : " + i);
             Thread.sleep(200);
